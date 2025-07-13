@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: insuranceapp-container
-          image: sravani629/insuranceapp:4
+          image: sravani629/insuranceapp-deployment:4
           ports:
             - containerPort: 8081
 ---
